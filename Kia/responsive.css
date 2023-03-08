@@ -1,0 +1,79 @@
+@media only screen and (max-width:850px) {
+    header{
+        display: block;
+        padding : 0;
+    }
+    header .logo, .nav{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    main{
+        position: absolute;
+        top: 30%;
+    }
+
+    main .heading{
+        display: flex;
+        justify-content: center;
+    }
+
+    main .image{
+        display: flex;
+        align-items: center;
+    }
+
+    main img{
+        margin-bottom: 200px;
+    }
+    
+    
+    footer{
+        margin-top: 10px;
+        background: #000;
+        position: absolute;
+        bottom: 0;
+        display: inline-block;
+    }
+
+    footer .toggle{ 
+        text-align: center;
+        width: auto;
+    }
+
+    footer .upper, .span{
+        font-weight:200;
+        font-size:5vw;
+        margin-bottom: -15px;
+    }
+      
+    footer .lower{
+        font-size:2.82vw;
+        font-weight:200;
+        padding-bottom: 10px;
+    }
+      
+    footer .distance, .charge, .performance{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        line-height:20px;
+    }
+
+    footer .text{
+        font-size:15px;
+        padding: 0 50px;
+    }
+      
+    footer .number{
+        font-size:25px;
+        padding: 0 50px;
+    }
+      
+    footer .range{
+        font-size:15px;
+        padding: 0 50px;
+    }
+}

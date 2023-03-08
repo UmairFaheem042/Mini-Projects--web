@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;800;900&display=swap');
+
+
+*{
+  margin: 0;
+  list-style:none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin-top:150px;
+  height: 70vh;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index:1;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 40px;
+  font-size:0.81rem;
+}
+
+header .logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+header .logo img{
+  width: 100px;
+}
+
+header .nav ul{
+  display: flex;
+  padding-right:30px;
+}
+
+.nav ul li{
+  cursor: pointer;
+  border-bottom: 2px solid white;
+  padding: 0 20px;
+}
+
+.nav ul li:hover{
+  border-bottom: 2px solid;
+}
+
+header .btn{
+  cursor: pointer;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 15px 30px;
+  border: 2px solid black;
+  transition: 0.5s ease;
+}
+
+header .btn:hover{
+  border:2px solid;
+  background: #fff;
+  color: #000;
+}
+
+
+/* Main */
+
+main .heading {
+  display: flex;
+  justify-content:center;
+  margin-top:-10px;
+  padding: 0 50px 5px 50px;
+  font-size:30px;
+  font-weight:200;
+}
+
+.heading span{
+  padding: 0 10px;
+  font-weight:700;
+}
+
+.small{
+  display: flex;
+  justify-content: center;
+  font-weight:300;
+}
+
+main .image{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.image img{
+    width: 80vw;
+    margin-right: 20px;
+}
+
+
+/* Footer */
+
+footer{
+  font-size:0.81rem;
+  background: #000;
+  color: #fff;
+  width: 100vw;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  display: flex;
+  align-items:center;
+  justify-content:space-evenly;
+  padding: 10px 0;
+}
+
+footer .upper{
+  font-weight:200;
+  font-size:23px;
+}
+footer .upper span{
+  font-weight:600;
+}
+
+footer .lower{
+  font-size:0.6rem;
+  font-weight:200;
+}
+
+footer .distance, .charge{
+  display: flex;
+  flex-direction:column;
+  line-height:20px;
+}
+
+footer .text{
+  font-size:0.6rem;
+  font-weight:200;
+  
+}
+
+footer .number{
+  font-weight:600;
+  font-size:20px;
+}
+
+footer .range{
+  margin-top: -3px;
+  font-weight:200;
+}
