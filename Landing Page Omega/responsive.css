@@ -1,0 +1,35 @@
+@media screen and (max-width: 973px) {
+    *{
+        padding: 0;
+    }
+    header{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* padding: 10px; */
+        align-items: center;
+        justify-content: flex-start;
+        height: 90px;
+    }
+
+    header .logo{
+        margin-left: -60px;
+        font-size: 50px;
+    }
+
+    .nav{
+        visibility: hidden;
+    }
+    .actions{
+        visibility: hidden;
+    }
+
+    main{
+        padding: 0;
+        margin-top: 180px;
+    }
+    main .heading{
+        font-size: 30px;
+    }
+}
+
+    
