@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Preview</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="product">
+        <div class="product-small-img">
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/f/v/g/8-2006-white-black-8-sfr-white-black-original-imaghbpnqyfm6yx7.jpeg?q=70"
+                alt="first-img" onclick="myPreviewFunction(this)" id="image" />
+
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/s/l/0/8-2006-white-black-8-sfr-white-black-original-imaghbpnjbpcfhby.jpeg?q=70"
+                alt="second-img" onclick="myPreviewFunction(this)" id="image" />
+
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/f/g/w/8-2006-white-black-8-sfr-white-black-original-imaghbpnkyzx37dx.jpeg?q=70"
+                alt="third-img" onclick="myPreviewFunction(this)" id="image" />
+
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/5/h/v/8-2006-white-black-8-sfr-white-black-original-imaghbpnzzpbv9g4.jpeg?q=70"
+                alt="fourth-img" onclick="myPreviewFunction(this)" id="image" />
+
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/u/d/8/8-2006-white-black-8-sfr-white-black-original-imaghbpngxhhdyd5.jpeg?q=70"
+                alt="fifth-img" onclick="myPreviewFunction(this)" id="image" />
+        </div>
+
+        <div class="img-container">
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/f/v/g/8-2006-white-black-8-sfr-white-black-original-imaghbpnqyfm6yx7.jpeg?q=70"
+                alt="first-img" id="imageBox" />
+        </div>
+    </div>
+
+    <script>
+        function myPreviewFunction(smallImg) {
+            let fullImg = document.getElementById("imageBox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
+</body>
+</html>
