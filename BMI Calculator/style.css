@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.box {
+    background: #00FFA0;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 30px; */
+    border: .5vmin solid #05060f;
+    box-shadow: .4rem .4rem #05060f;
+    padding: 2rem;
+    height: max(30%, auto);
+    width: max(40%, auto);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input {
+    color: #fff;
+    background-color: #9900fffa;
+    box-sizing: border-box;
+    padding: 0.4em 0.5em;
+    border-radius: 0.7rem;
+    min-width: 90%;
+    /* max-width: 40%; */
+    /* flex: 1 0 auto; */
+    font-size: max(1.6vw, 14px);
+    z-index: 1;
+    border: 3px solid #000;
+    font-weight: 600;   
+}
+
+.input::selection{
+    background: #4aa2ff;
+    color: #fff;
+    
+}
+.input:hover {
+    background: #f8f8f8;
+    color: #000;
+    /* border: 1px solid #4aa2ff; */
+}
+
+.input:focus {
+    background: #f8f8f8;
+    color: #000;
+    /* border: 1px solid #4aa2ff; */
+    outline: none;
+}
+
+.input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+label{
+    font-size: max(2vw, 15px);
+    font-weight: 600;
+}
+
+.result-box{
+    /* width: 100%; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 1px solid; */
+}
+
+#compute{
+    padding: 0.7rem 1rem;
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 0.8rem;
+    background: #00FFA0;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: max(1.5vw, 15px);
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 30px; */
+}
+
+#compute:hover{
+    border: 3px solid #fff;
+    background: #000;
+    color: #fff;
+}
+
+#bmi-result{
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: max(1.8vw, 14px);
+    font-weight: 600;
+    border-radius: 0.8rem;
+    text-align: center;
+    /* box-shadow: 12px 12px 24px 0 rgba(0, 255, 119, 0.948), */
+    /* -12px -12px 24px 0 #00FFA0; */
+    color: #000;
+    display: none;
+}
+
+.info-text{
+    font-weight: 400;
+    text-align: center;
+    display: none;
+    text-align: center;
+}
+
+#weight-condition{
+    font-weight: 600;
+    margin-left: 2px;
+    /* display: none; */
+}
+
