@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1300px) {
+    .cards .card6{
+        display: none;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+    footer .box{
+        min-width:90vw;   
+    }
+
+    footer .arrow{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .cards .card5{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .cards .card4{
+        display: none;
+    }
+
+    nav{
+        gap: 5rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .cards .card3{
+        display: none;
+    }
+    nav{
+        gap: 4rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .cards .card2, .cards .card1{
+        height: 130px;
+        width: 130px;
+    }
+
+    nav{
+        gap: 3rem;
+        margin-left: -30px;
+    }
+
+
+    .arrow{
+        width: 40px;
+        height: 40px;
+    }
+    .arrow i{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 560px) { 
+    nav{
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        font-size: 13px;
+        gap: 2rem;
+        margin-left: -100px;
+    }
+
+    main .heading{
+        font-size: 50px;
+        /* background: red; */
+    }
+
+    main p{
+        font-size: 15px;
+
+    }
+
+    .left-col{
+        width: 70px;
+    }
+
+    .right-col{
+        margin-left: -50px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 520px) {
+    .cards .card2, .cards .card1{
+        height: 100px;
+        width: 100px;
+    }
+
+    nav{
+        gap: 1rem;
+        /* margin-left: -30px; */
+    }
+
+
+    .arrow{
+        width: 40px;
+        height: 40px;
+    }
+    .arrow i{
+        font-size: 15px;
+    }
+
+    .box .desc{
+        /* font-weight: 300; */
+        max-width: 200px;
+        font-size: 12px;
+    }
+}
